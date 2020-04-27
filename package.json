@@ -1,0 +1,19 @@
+{
+  "name": "fuisho",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rknguyen",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsnd src/index.ts",
+    "prod": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^13.11.1",
+    "axios": "^0.19.2",
+    "googleapis": "39",
+    "loading-cli": "^1.1.0"
+  }
+}
